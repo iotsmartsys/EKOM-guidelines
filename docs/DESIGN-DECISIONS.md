@@ -1515,6 +1515,22 @@ custo proporcional. O [experimento planejado](experiments/REPOSITORY-READINESS-R
 fornece cenários positivos, negativos e medidas; não há resultado registrado.
 A revisão é major pelo novo pré-requisito de adoção. Registros 4.x são preservados.
 
+### Registro da promoção da EKOM 5.0
+
+- **Decisão humana:** em 2026-09-22, o Arquiteto determinou promover a versão
+  local 5.0 para a referência principal e colocá-la em vigência online.
+- **Recorte:** consolidar as regras já registradas de contrato de engenharia,
+  Repository Readiness, via curta do Consultor e proteção de informações
+  sensíveis; alinhar a referência do modelo na métrica experimental dos atores.
+- **Resultado normativo:** EKOM 5.0 aprovada e vigente como referência central,
+  com ADR-0016 aceita e decisões anteriores preservadas.
+- **Validações:** guarda estrutural documental aprovada; 121 referências locais
+  dos documentos alterados verificadas; integridade do diff conferida. Não foi
+  executado experimento de eficácia, nem se declara auditoria independente.
+- **Limites:** a promoção não aprova contratos de repositórios adotantes, não
+  certifica Repository Readiness de nenhum projeto e não migra consumidores
+  automaticamente. Não inclui tag, release, deploy ou reescrita de histórico.
+
 ## DD-048 — Nenhuma informação sensível pode ser versionada
 
 **Estado:** vigente, determinada pelo Arquiteto em 17/09/2026 como emenda à EKOM 5.0.
